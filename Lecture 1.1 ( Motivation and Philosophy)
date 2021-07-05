@@ -1,0 +1,33 @@
+In programming when the problem is higher composition and abstraction helps us in not worrying about lower level problems. In OOP with
+abstraction and composition comes the idea of reusability. Turns out, the problem of OOP became apparent when people started writing 
+concurrent and parallel code.
+
+Concurrency and OOP don't mix very well, because objects hide implementations and hide state muatations and sharing data with pointers 
+which makes them not composable. Mixing data sharing and mutations == Data Race! You may try to use locks ( like each object in java 
+has its own lock), but locks dont compose well either.
+
+So instead we can work with Functional Paradigm and abstract things to functions, we dont have mutations in functional programming and
+now we can avoid data races, and so we also have composing data structures with other data structures so we can safely compose and 
+decompose.
+
+Category Theory is not a practical language but it is a higher level language above scala, haskell, C++.  If you are a functional
+programmer you can take these ideas and trnasform them into haskell.
+
+Motivation:
+The main practical motivation is that we want to get to this highest level of abstraction to help us express ideas that later can be
+translated to programs.
+Theoretical motivations / philospohical motivation is that Category theory unifies alot of things, you abstract so much that alot of
+things start looking similar from the higher level e.g. languages start looking same. Even things like different mathermatical topics
+start showing similarities , e.g. tweaking structures leads to topology, algebra etc. Category Theory brings grand unification to all
+areas of math, and programming.
+
+Curry-Howard-Lambek isomorphism (Distinct areas of mathematics are exactly the same)-> Whatever you do in logic can be directly
+translated into whatever you do in type theory, they aren't similar they are the exact same with 1-1 correspondance!!!
+Essentially all our human activity is described by one theory.
+
+Humans naturally take task, decompose to smaller, find solutions, and bring together these solutions. we feel the need to find sturcture,
+else we give up . Although this may be a property of our brains, this may not be the property of nature e.g. Theories about the most 
+elemnetary particle not being a point!
+
+Category theory is about our minds, how our brains work so it's more of an epistemology (how can we reason about stuff) than ontology
+(what things are)

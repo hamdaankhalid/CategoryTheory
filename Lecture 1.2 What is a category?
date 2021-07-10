@@ -1,0 +1,27 @@
+Abstraction, Composition, and Identity.
+
+Abstraction is about getting rid of unneccasry details, and focussing from higher level. When you have abstraction then objects/items that are not 
+exactly/strictly equal appear to be equal e.g. 2 same color balls are different from each other but when you play pool they are the same.
+
+Composition & Identity define category theory.
+
+A category is a bunch of objects....Not a set, a bunch of object.
+
+A morphism is an arrow that goes between two objects.
+
+Whats an object is? An object is primitive, no properties, no structure, its like an atom.
+
+A morphism is also a primitive but it has a starting point and an arrow, objects help define start and end of a morphism.
+
+Things that can happen
+- multiple objects can be connected by multiple morphisms
+- infinite arrows/morphisms
+- Arrow going from object to same object (identity arrow)
+
+Composition is basically the same as regular composition but for morphisms. 
+Object A ------f------>Object B --------- g--------> Object C
+=> g.f
+
+Composition in Category is associative
+
+In programming we can take objects in Catgeory called types objects in the categroy are types and morphisms are the functions between two types!

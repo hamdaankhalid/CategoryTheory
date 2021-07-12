@@ -1,0 +1,18 @@
+- If you can memoize a function -> It's a pure function!
+
+- Functions are defined as special kinds of relations. Relation is when you take 2 sets with elements, and you can pair elements from one to another. One element from the first set (domain) cannot point to multiple in the mapping set (co-domain), but multiple elements from domain can map to same codomain element.
+
+- If the above defined function maps from one set (domain) to another(codomain) and can map back to the original set, it has an incerse, such functions are called isomoprhisms.
+
+*****************************************
+Let A be domain set, and B be codomain set. A -> B
+
+- Surjective: If every element of B has some A, multiple elements of A can point to same B
+
+- Injective: Any element of B cannot have more than one element of A
+
+- Bijective: A to B one to one perfectly
+*****************************************
+
+- Epimoprhism: In category theory, when a morphism is surjective we call it an epimorphism.
+- Monomorphism/Monic: In category theory, when a morphism is injective we call it an epimorphism.
